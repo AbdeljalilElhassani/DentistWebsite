@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabinet Telmçani</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./imgs/Cabinet_Telmçani-icon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">  
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<body>
+  
+<nav class="navbar">
+  
+    <div class="navbar-container">
+      <div class="mobile-menu-toggle" id="navbar-toggle">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    <img class="logo" src="./imgs/Cabinet_Telmçani-removebg-preview.png" alt="logo">
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutUs">About Us</a></li>
+        <li><a href="#procedures">Procedures</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+        <li><a class="bookBtn"  href="#callUs">Book Now</a></li>
+    </ul>
+    <select onchange="goToLanguagePage(this)">
+      <option value="" selected disabled>choose language</option>
+      <option value="../fr/index.html">French</option>
+      <option value="../en/index.html">English</option>
+      <option value="../ar/index.html">Arabic</option>
+  </select>
+    </div>
+</nav>
+<div class="fullscreen-bg" id="home">
+  <div class="overlay"></div>
+  <div class="welcome-text">
+    <h1>Welcome to Our Dental Clinic!</h1>
+    <div class="line1"></div>
+    <h3>Where Smiles Come to Life <br> Your Journey to a Brighter, Healthier Smile Begins Here.</h3>
+    
+  </div>
+</div>
+
+<div class="about-us" id="aboutUs">
+    <img class="aboutUsImg" data-aos="fade-up" src="./imgs/Cabinet Telmçani (1) 1.png" />
+    <div class="aboutUsTextContainer" data-aos="fade-left">
+      <h1>Exceptional Dental Care, Radiant Smiles.</h1>
+      <p>At Cabinet Telmçani, we're dedicated to providing top-notch dental care tailored to your unique needs. Our skilled team creates a warm, welcoming environment, ensuring your comfort throughout your visit. With state-of-the-art technology and a focus on preventive care, we're here to help you achieve a healthy, confident smile.
+        <br><br> Trust your oral health to Cabinet Telmçani, where excellence meets compassion.</p>
+    </div>
+</div>
+
+
+<table class="procedures" id="procedures">
+  <th colspan="3" data-aos="fade-up">Our Procedures</th>
+  <tr>
+    <td data-aos="fade-up">
+      <img src="./imgs/Braces&Implants.png" alt="">
+      <h1>Braces & Implants</h1>
+      <p>Descrtption</p>
+    </td>
+    <td data-aos="fade-up">
+      <img src="./imgs/CosmeticDentistry.png" alt="">
+      <h1>Cosmetic Dentistry</h1>
+      <p>Descrtption</p>
+    </td>
+    <td data-aos="fade-up">
+      <img src="./imgs/dentalImplants.png" alt="">
+      <h1>Dental Implants</h1>
+      <p>Descrtption</p>
+    </td>
+  </tr>
+  <tr>
+    <td data-aos="fade-up">
+      <img src="./imgs/DentalXrays.png" alt="">
+      <h1>Dental X Rays</h1>
+      <p>Descrtption</p>
+    </td>
+    <td data-aos="fade-up">
+      <img src="./imgs/RootCanals.png" alt="">
+      <h1>Root Canals</h1>
+      <p>Descrtption</p>
+    </td>
+    <td data-aos="fade-up">
+      <img src="./imgs/TeethWithening.png" alt="">
+      <h1>teeth Whitening</h1>
+      <p>Descrtption</p>
+    </td>
+  </tr>
+</table>
+<div class="callUsSection" id="callUs" data-aos="fade-right">
+  <h1>Call Us Today for FREE Consultations</h1>
+  <p>+212 5 22 31 96 55</p>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d784.2591016757298!2d-7.613143737031059!3d33.590405346364435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d29de16edda7%3A0xf9e1672d225a6be6!2s39%20Av.%20Lalla%20Yacout%2C%20Casablanca%2020250!5e0!3m2!1sen!2sma!4v1691490584475!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<footer>
+  
+  <img src="./imgs/Cabinet_Telmçani-removebg-preview.png" alt="">
+  <div class="contactContainer">
+    <div class="footerCallUs">
+      <h1>Call Us</h1>
+      <p>+212 5 22 31 96 55</p>
+    </div>
+    <div class="footerOurAddress">
+      <h1>Our Address</h1>
+      <p>39 boulevard Lalla Yacout 
+        <br>1er étage</p>
+    </div>
+    <div class="footerOpenHours">
+      <h1>Open Hours</h1>
+      <p>Mon-Fri 09:00-19:00 <br>Sat-Sun 10:00-14:00</p>
+    </div>
+    <div class="footerFollowUs">
+      <h1>Follow Us</h1>
+  
+    </div>
+  </div>
+  
+</footer>
+<script src="./app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
